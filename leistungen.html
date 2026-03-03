@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KI-Agenten für Unternehmen in der Schweiz | Swiss Agents</title>
+    <meta name="description" content="Vier spezialisierte KI-Agenten für Unternehmen in der Schweiz: Communication, Operations, Executive und Sales Agenten für Alltag, Wachstum und Automatisierung.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav scrolled" id="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 32 32" fill="none">
+                        <circle cx="16" cy="16" r="14" stroke="url(#logoGrad)" stroke-width="1.5"/>
+                        <path d="M10 20 C10 14, 16 8, 22 12 C18 10, 14 14, 14 18" stroke="url(#logoGrad)" stroke-width="1.5" fill="none"/>
+                        <circle cx="16" cy="16" r="3" fill="url(#logoGrad)" opacity="0.6"/>
+                        <defs>
+                            <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+                                <stop offset="0%" stop-color="#00d4ff"/>
+                                <stop offset="100%" stop-color="#8b5cf6"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="logo-text">Swiss Agents</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="leistungen.html" class="nav-link">KI-Agenten</a>
+                <a href="ablauf.html" class="nav-link">Ablauf</a>
+                <a href="ueber-uns.html" class="nav-link">Über uns</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
+                <a href="kontakt.html" class="nav-cta">Demo buchen</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="page-header-glow"></div>
+        <div class="container">
+            <span class="section-label animate-on-scroll">KI-Agenten Schweiz</span>
+            <h1 class="section-title animate-on-scroll">Ihre digitalen Mitarbeiter -<br><span class="gradient-text">für jede Aufgabe bereit.</span></h1>
+            <p class="section-subtitle animate-on-scroll">KI-Agenten für Kundenkontakt, Backoffice, Lead Generation und KI-Automatisierung. Jeder Agent ist spezialisiert und lässt sich einzeln oder gemeinsam einsetzen.</p>
+        </div>
+    </section>
+
+    <!-- WORKFLOW -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="workflow animate-on-scroll">
+                <div class="workflow-step">
+                    <div class="workflow-node">
+                        <div class="workflow-pulse"></div>
+                        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><path d="M20 12a4 4 0 100 8 4 4 0 000-8zM12 28c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </div>
+                    <span>Kunde fragt etwas</span>
+                </div>
+                <div class="workflow-connector">
+                    <div class="workflow-connector-line"></div>
+                    <div class="workflow-connector-dot"></div>
+                </div>
+                <div class="workflow-step">
+                    <div class="workflow-node node-active">
+                        <div class="workflow-pulse"></div>
+                        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><path d="M14 20h12M20 14v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </div>
+                    <span>Ihr KI-Agent versteht es</span>
+                </div>
+                <div class="workflow-connector">
+                    <div class="workflow-connector-line"></div>
+                    <div class="workflow-connector-dot"></div>
+                </div>
+                <div class="workflow-step">
+                    <div class="workflow-node">
+                        <div class="workflow-pulse"></div>
+                        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><path d="M14 20l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <span>Erledigt es sofort</span>
+                </div>
+                <div class="workflow-connector">
+                    <div class="workflow-connector-line"></div>
+                    <div class="workflow-connector-dot"></div>
+                </div>
+                <div class="workflow-step">
+                    <div class="workflow-node">
+                        <div class="workflow-pulse"></div>
+                        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1.5" opacity="0.3"/><path d="M15 20l3 3 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 30c5.5 0 10-4.5 10-10S25.5 10 20 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <span>Kein Aufwand für Sie</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAPABILITIES -->
+    <section class="section">
+        <div class="section-glow"></div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">KI-Automatisierung</span>
+                <h2 class="section-title">Spezialisierte KI-Agenten, <span class="gradient-text">klare Aufgaben.</span></h2>
+                <p class="section-subtitle">Jeder KI-Agent übernimmt einen klaren Bereich in Ihrem Unternehmen und ergänzt die anderen dort, wo es sinnvoll ist.</p>
+            </div>
+            <div class="capabilities-grid">
+                <div class="capability-card animate-on-scroll" style="--delay: 0">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M12 36V20a12 12 0 0124 0v16" stroke="currentColor" stroke-width="1.5"/><path d="M8 28h4v12H8zM36 28h4v12h-4z" stroke="currentColor" stroke-width="1.5"/><circle cx="24" cy="18" r="3" fill="currentColor" opacity="0.5"/></svg>
+                    </div>
+                    <h3>Telefonate annehmen</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 1">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="10" y="8" width="28" height="32" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M18 18h12M18 24h8M18 30h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Termine eintragen</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 2">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M10 12h28v20a4 4 0 01-4 4H14a4 4 0 01-4-4V12z" stroke="currentColor" stroke-width="1.5"/><path d="M10 12l14 10 14-10" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </div>
+                    <h3>Nachrichten beantworten</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 3">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="1.5"/><path d="M24 16v8l6 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Support-Anfragen klären</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 4">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="1.5"/><path d="M20 20h8M24 16v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Informationen geben</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 5">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M24 8l4 8 8 2-6 6 2 8-8-4-8 4 2-8-6-6 8-2z" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </div>
+                    <h3>Leads entgegennehmen</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 6">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M16 24a8 8 0 1116 0" stroke="currentColor" stroke-width="1.5"/><path d="M20 36h8M24 24v12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="16" r="6" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </div>
+                    <h3>Mitarbeiter entlasten</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 7">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="12" y="12" width="24" height="24" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M18 24l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Ordnung in den Alltag</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 0">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="20" cy="20" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M28 28l8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M16 20h8M20 16v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Leads finden</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 1">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="12" width="32" height="24" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M16 20c0-2.2 1.8-4 4-4h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="14" cy="28" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M18 28h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>LinkedIn-Outreach</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 2">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M10 16h28v20a4 4 0 01-4 4H14a4 4 0 01-4-4V16z" stroke="currentColor" stroke-width="1.5"/><path d="M10 16l14 10 14-10" stroke="currentColor" stroke-width="1.5"/><path d="M32 28l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>E-Mail-Outreach</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 3">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M34 14a12 12 0 11-20 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M30 10l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 28l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Follow-ups automatisieren</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODULES -->
+    <section class="section section-modules" id="modules">
+        <div class="section-glow section-glow-teal"></div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">KI-Agent Produkte</span>
+                <h2 class="section-title">Vier KI-Agenten.<br><span class="gradient-text">Einzeln oder kombiniert.</span></h2>
+                <p class="section-subtitle">Jeder KI-Agent ist auf einen Bereich spezialisiert. Sie können mit einem starten und bei Bedarf weitere KI-Agenten ergänzen.</p>
+            </div>
+            <div class="modules-grid">
+                <!-- Module 1 -->
+                <div class="module-card animate-on-scroll" style="--delay: 0" data-color="blue">
+                    <div class="module-card-inner">
+                        <div class="module-glow"></div>
+                        <div class="module-number">01</div>
+                        <div class="module-icon-wrap">
+                            <svg class="module-icon" viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                <path d="M20 44V32a12 12 0 0124 0v12" stroke="currentColor" stroke-width="1.5"/>
+                                <circle cx="32" cy="24" r="4" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M40 36l6 4M24 36l-6 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="module-title">Communication Agent</h3>
+                        <p class="module-tagline">Ihr digitaler Front-Desk.</p>
+                        <p class="module-desc">Für alles, was mit Kundenkontakt zu tun hat.</p>
+                        <ul class="module-features">
+                            <li><span class="feature-dot"></span>Telefon</li>
+                            <li><span class="feature-dot"></span>Chat</li>
+                            <li><span class="feature-dot"></span>WhatsApp</li>
+                            <li><span class="feature-dot"></span>E-Mail</li>
+                            <li><span class="feature-dot"></span>Terminbuchung</li>
+                            <li><span class="feature-dot"></span>Fragen beantworten</li>
+                        </ul>
+                        <a href="communication-agent-schweiz.html" class="btn btn-secondary module-more-link">
+                            <span>Erfahre mehr</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Module 2 -->
+                <div class="module-card animate-on-scroll" style="--delay: 1" data-color="purple">
+                    <div class="module-card-inner">
+                        <div class="module-glow"></div>
+                        <div class="module-number">02</div>
+                        <div class="module-icon-wrap">
+                            <svg class="module-icon" viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                <rect x="18" y="18" width="28" height="28" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M26 26h12M26 32h8M26 38h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="module-title">Operations Agent</h3>
+                        <p class="module-tagline">Ihr digitaler Office-Assistent.</p>
+                        <p class="module-desc">Für interne Abläufe & Office-Arbeit.</p>
+                        <ul class="module-features">
+                            <li><span class="feature-dot"></span>Daten eintragen</li>
+                            <li><span class="feature-dot"></span>Informationen suchen</li>
+                            <li><span class="feature-dot"></span>Backoffice-Aufgaben</li>
+                            <li><span class="feature-dot"></span>Dokumente sortieren</li>
+                            <li><span class="feature-dot"></span>Einfache Organisation</li>
+                        </ul>
+                        <a href="operations-agent-schweiz.html" class="btn btn-secondary module-more-link">
+                            <span>Erfahre mehr</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Module 3 -->
+                <div class="module-card animate-on-scroll" style="--delay: 2" data-color="teal">
+                    <div class="module-card-inner">
+                        <div class="module-glow"></div>
+                        <div class="module-number">03</div>
+                        <div class="module-icon-wrap">
+                            <svg class="module-icon" viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                <circle cx="32" cy="24" r="8" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M20 48c0-6.6 5.4-12 12-12s12 5.4 12 12" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M28 22l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="module-title">Executive Agent</h3>
+                        <p class="module-tagline">Ihr persönlicher digitaler Assistent.</p>
+                        <p class="module-desc">Für Führungskräfte.</p>
+                        <ul class="module-features">
+                            <li><span class="feature-dot"></span>Inbox sortieren</li>
+                            <li><span class="feature-dot"></span>Daily Briefing</li>
+                            <li><span class="feature-dot"></span>Meetings organisieren</li>
+                            <li><span class="feature-dot"></span>Zusammenfassungen</li>
+                            <li><span class="feature-dot"></span>Recherche</li>
+                        </ul>
+                        <a href="executive-agent-schweiz.html" class="btn btn-secondary module-more-link">
+                            <span>Erfahre mehr</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Module 4 -->
+                <div class="module-card animate-on-scroll" style="--delay: 3" data-color="pink">
+                    <div class="module-card-inner">
+                        <div class="module-glow"></div>
+                        <div class="module-number">04</div>
+                        <div class="module-icon-wrap">
+                            <svg class="module-icon" viewBox="0 0 64 64" fill="none">
+                                <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="1" opacity="0.2"/>
+                                <circle cx="38" cy="22" r="7" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M16 44l8-8 6 6 12-12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M42 18l-4 4-4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="module-title">Sales Agent</h3>
+                        <p class="module-tagline">Ihr digitaler Vertriebsassistent.</p>
+                        <p class="module-desc">Für Kundengewinnung & Lead-Generation.</p>
+                        <ul class="module-features">
+                            <li><span class="feature-dot"></span>Leads finden & qualifizieren</li>
+                            <li><span class="feature-dot"></span>LinkedIn-Outreach</li>
+                            <li><span class="feature-dot"></span>E-Mail-Kampagnen</li>
+                            <li><span class="feature-dot"></span>Follow-up automatisieren</li>
+                            <li><span class="feature-dot"></span>CRM aktuell halten</li>
+                            <li><span class="feature-dot"></span>Vertrieb skalieren</li>
+                        </ul>
+                        <a href="sales-agent-schweiz.html" class="btn btn-secondary module-more-link">
+                            <span>Erfahre mehr</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AGENT SHOWCASE -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="agent-showcase animate-on-scroll" data-interval="7000">
+                <button class="agent-showcase-arrow agent-showcase-arrow-prev" type="button" aria-label="Vorherigen KI-Agenten anzeigen">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 5l-7 7 7 7" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="agent-showcase-arrow agent-showcase-arrow-next" type="button" aria-label="Nächsten KI-Agenten anzeigen">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="agent-showcase-stage">
+                    <article class="agent-showcase-slide is-active" id="agent-showcase-communication">
+                        <div class="lead-gen-banner">
+                            <div class="lead-gen-content">
+                                <span class="section-label">Communication Agent</span>
+                                <h2>Kundenkontakt<br><span class="gradient-text">ohne Leerlauf.</span></h2>
+                                <p>Der Communication Agent nimmt Anrufe an, beantwortet wiederkehrende Fragen, koordiniert Termine und entlastet Ihr Team genau dort, wo jeden Tag Kontakt entsteht.</p>
+                                <ul class="lead-gen-features">
+                                    <li>Anrufe annehmen und Anfragen verstehen</li>
+                                    <li>Termine direkt im passenden System buchen</li>
+                                    <li>Auf Ihren Workspace und relevante Tools zugreifen</li>
+                                    <li>Kundendaten, Verfügbarkeiten und Infos live abrufen</li>
+                                    <li>Komplexe Fälle klar an Ihr Team übergeben</li>
+                                </ul>
+                                <a href="communication-agent-schweiz.html" class="btn btn-primary">
+                                    <span>Demo buchen</span>
+                                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                                </a>
+                            </div>
+                            <div class="lead-gen-visual">
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-pink"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Anruf annehmen</strong>
+                                        Der Agent reagiert sofort und führt sauber durch den Erstkontakt
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-blue"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Systeme lesen</strong>
+                                        Kalender, Kundendaten und Terminlogik werden live eingebunden
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-purple"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Direkt buchen</strong>
+                                        Termine werden ohne Rückruf direkt eingetragen oder verschoben
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-teal"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Sauber übergeben</strong>
+                                        Ihr Team bekommt nur die Fälle, die wirklich menschlich bleiben müssen
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="agent-showcase-slide" id="agent-showcase-operations">
+                        <div class="lead-gen-banner">
+                            <div class="lead-gen-content">
+                                <span class="section-label">Operations Agent</span>
+                                <h2>Interne Arbeit<br><span class="gradient-text">läuft weiter.</span></h2>
+                                <p>Der Operations Agent arbeitet wie ein interner KI-Agent in Ihrem Setup: Er liest, prüft, sortiert, pflegt Daten und übernimmt genau die stille Arbeit, die intern Zeit frisst.</p>
+                                <ul class="lead-gen-features">
+                                    <li>Bewerbungen vorprüfen und vorsortieren</li>
+                                    <li>Dokumente lesen, strukturieren und zusammenfassen</li>
+                                    <li>E-Mails, To-dos und Follow-ups im Blick halten</li>
+                                    <li>CRM, Listen und Stammdaten sauber pflegen</li>
+                                    <li>Informationen direkt aus Ihren Systemen abrufen</li>
+                                </ul>
+                                <a href="operations-agent-schweiz.html" class="btn btn-primary">
+                                    <span>Demo buchen</span>
+                                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                                </a>
+                            </div>
+                            <div class="lead-gen-visual">
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-pink"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Inputs lesen</strong>
+                                        Bewerbungen, Dateien, Mails und Listen werden sofort verarbeitet
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-blue"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Prüfen & ordnen</strong>
+                                        Inhalte werden bewertet, sortiert, markiert und strukturiert
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-purple"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Daten pflegen</strong>
+                                        CRM, Preislisten, Checklisten und Stammdaten bleiben konsistent
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-teal"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Ergebnisse liefern</strong>
+                                        Ihr Team bekommt klare Vorarbeit statt manuellem Nachfassen
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="agent-showcase-slide" id="agent-showcase-executive">
+                        <div class="lead-gen-banner">
+                            <div class="lead-gen-content">
+                                <span class="section-label">Executive Agent</span>
+                                <h2>Ihr Assistenz-Call<br><span class="gradient-text">mit Zugriff.</span></h2>
+                                <p>Der Executive Agent ist Ihr direkter KI-Ansprechpartner für Alltag und Entscheidungen: per Anruf erreichbar, mit Zugriff auf Ihren Kalender, laufende Themen und die Tools, die Sie freigeben.</p>
+                                <ul class="lead-gen-features">
+                                    <li>Per Call fragen, was heute ansteht</li>
+                                    <li>Kalender, laufende Themen und Prioritäten abrufen</li>
+                                    <li>Meetings vorbereiten, planen und verschieben</li>
+                                    <li>Angebote nach Ansage vorbereiten oder erstellen</li>
+                                    <li>Aufgaben direkt anstossen statt nur erinnern</li>
+                                </ul>
+                                <a href="executive-agent-schweiz.html" class="btn btn-primary">
+                                    <span>Demo buchen</span>
+                                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                                </a>
+                            </div>
+                            <div class="lead-gen-visual">
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-pink"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Anrufen & fragen</strong>
+                                        Sie sprechen direkt mit dem Agenten wie mit einer Assistenz
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-blue"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Kontext laden</strong>
+                                        Kalender, Aufgaben und freigegebene Systeme werden live abgefragt
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-purple"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Direkt organisieren</strong>
+                                        Termine koordiniert der Agent selbst und verschiebt sie bei Bedarf
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-teal"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Arbeit anstossen</strong>
+                                        Auch Angebote oder nächste Schritte können direkt vorbereitet werden
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="agent-showcase-slide" id="agent-showcase-sales">
+                        <div class="lead-gen-banner">
+                            <div class="lead-gen-content">
+                                <span class="section-label">Sales Agent</span>
+                                <h2>Lead Generation<br><span class="gradient-text">auf Autopilot.</span></h2>
+                                <p>Der Sales Agent findet passende Kontakte, schreibt personalisierte LinkedIn-Nachrichten und E-Mails, hält Follow-ups am Laufen und übergibt nur qualifizierte Leads an Ihr Team.</p>
+                                <ul class="lead-gen-features">
+                                    <li>Zielgruppe definieren und passende Kontakte finden</li>
+                                    <li>Cold Outreach mit personalisierten Nachrichten</li>
+                                    <li>LinkedIn und E-Mail auf den Kontakt abstimmen</li>
+                                    <li>Follow-ups nach Plan automatisch senden</li>
+                                    <li>Nur echte Interessenten an Ihr Team übergeben</li>
+                                </ul>
+                                <a href="sales-agent-schweiz.html" class="btn btn-primary">
+                                    <span>Demo buchen</span>
+                                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                                </a>
+                            </div>
+                            <div class="lead-gen-visual">
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-pink"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Leads finden</strong>
+                                        Der Agent sucht passende Kontakte in Ihrer Zielgruppe
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-blue"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Erstkontakt senden</strong>
+                                        LinkedIn- und E-Mail-Outreach wird pro Kontakt angepasst
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-purple"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Follow-up automatisch</strong>
+                                        Nachfassen läuft planbar weiter, ohne dass Ihr Team dran denken muss
+                                    </div>
+                                </div>
+                                <div class="lead-flow-item">
+                                    <div class="lead-flow-dot lead-flow-dot-teal"></div>
+                                    <div class="lead-flow-text">
+                                        <strong>Qualifiziert übergeben</strong>
+                                        Vertrieb bekommt nur die Leads, die wirklich relevant sind
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CUSTOM DASHBOARD -->
+    <section class="section" id="dashboard">
+        <div class="section-glow section-glow-purple"></div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Ihr Dashboard</span>
+                <h2 class="section-title">Alles im Blick - mit einem<br><span class="gradient-text">Dashboard pro Agent.</span></h2>
+                <p class="section-subtitle">Jeder Agent kommt mit einem eigenen, massgeschneiderten Dashboard. Übersichtlich, in Echtzeit und von überall erreichbar.</p>
+            </div>
+            <div class="capabilities-grid">
+                <div class="capability-card animate-on-scroll" style="--delay: 0">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M8 18h32" stroke="currentColor" stroke-width="1.5"/><rect x="12" y="22" width="10" height="8" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M26 22h10M26 26h8M26 30h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Live-Übersicht</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 1">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M14 34V22M20 34V18M26 34V26M32 34V14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M8 38h32" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </div>
+                    <h3>Statistiken & Reports</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 2">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="1.5"/><path d="M24 16v8h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="24" r="2" fill="currentColor"/></svg>
+                    </div>
+                    <h3>Echtzeit-Updates</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 3">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="12" width="16" height="24" rx="3" stroke="currentColor" stroke-width="1.5"/><rect x="26" y="8" width="16" height="32" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M10 30h8M30 16h8M30 22h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Alle Geräte</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 4">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M12 24c0-6.6 5.4-12 12-12s12 5.4 12 12" stroke="currentColor" stroke-width="1.5"/><path d="M18 24c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="currentColor" stroke-width="1.5"/><circle cx="24" cy="24" r="2" fill="currentColor"/><path d="M24 26v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Anruf-Protokolle</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 5">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><rect x="10" y="10" width="28" height="28" rx="14" stroke="currentColor" stroke-width="1.5"/><path d="M20 24l4 4 6-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <h3>Aufgaben-Status</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 6">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M14 12h20a2 2 0 012 2v20a2 2 0 01-2 2H14a2 2 0 01-2-2V14a2 2 0 012-2z" stroke="currentColor" stroke-width="1.5"/><path d="M12 20h24M22 12v24" stroke="currentColor" stroke-width="1.5"/></svg>
+                    </div>
+                    <h3>Termine & Kalender</h3>
+                </div>
+                <div class="capability-card animate-on-scroll" style="--delay: 7">
+                    <div class="capability-icon">
+                        <svg viewBox="0 0 48 48" fill="none"><path d="M24 8v8M24 32v8M8 24h8M32 24h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="1.5"/><circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="1" opacity="0.3"/></svg>
+                    </div>
+                    <h3>Individuell anpassbar</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="section section-cta-banner">
+        <div class="cta-banner-bg">
+            <div class="cta-glow cta-glow-1"></div>
+            <div class="cta-glow cta-glow-2"></div>
+        </div>
+        <div class="container">
+            <div class="cta-banner-content animate-on-scroll">
+                <h2>Bereit für Ihren <span class="gradient-text">digitalen Mitarbeiter?</span></h2>
+                <p>Kein Chatfenster. Kein Bot. Ein echter, digitaler Assistent für Ihr Unternehmen.</p>
+                <a href="kontakt.html" class="btn btn-primary btn-lg">
+                    <span>Demo buchen</span>
+                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="14" stroke="url(#footerGrad)" stroke-width="1.5"/>
+                                <path d="M10 20 C10 14, 16 8, 22 12 C18 10, 14 14, 14 18" stroke="url(#footerGrad)" stroke-width="1.5" fill="none"/>
+                                <circle cx="16" cy="16" r="3" fill="url(#footerGrad)" opacity="0.6"/>
+                                <defs>
+                                    <linearGradient id="footerGrad" x1="0" y1="0" x2="32" y2="32">
+                                        <stop offset="0%" stop-color="#00d4ff"/>
+                                        <stop offset="100%" stop-color="#8b5cf6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span class="logo-text">Swiss Agents</span>
+                    </div>
+                    <p class="footer-tagline">Der KI-Agent für Unternehmen.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="leistungen.html">KI-Agenten</a>
+                    <a href="ablauf.html">Ablauf</a>
+                    <a href="ueber-uns.html">Über uns</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="kontakt.html">Kontakt</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Swiss Agents. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING CTA -->
+    <div class="floating-cta" id="floatingCta">
+        <a href="kontakt.html" class="floating-cta-btn">
+            <span class="floating-pulse"></span>
+            <span>Jetzt Demo buchen</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
