@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Swiss Agents</title>
+    <meta name="description" content="Häufig gestellte Fragen zum Swiss Agents KI-Agent. Kein technisches Wissen nötig, einsatzbereit in 7–10 Tagen.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="nav scrolled" id="nav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 32 32" fill="none">
+                        <circle cx="16" cy="16" r="14" stroke="url(#logoGrad)" stroke-width="1.5"/>
+                        <path d="M10 20 C10 14, 16 8, 22 12 C18 10, 14 14, 14 18" stroke="url(#logoGrad)" stroke-width="1.5" fill="none"/>
+                        <circle cx="16" cy="16" r="3" fill="url(#logoGrad)" opacity="0.6"/>
+                        <defs>
+                            <linearGradient id="logoGrad" x1="0" y1="0" x2="32" y2="32">
+                                <stop offset="0%" stop-color="#00d4ff"/>
+                                <stop offset="100%" stop-color="#8b5cf6"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="logo-text">Swiss Agents</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="leistungen.html" class="nav-link">KI-Agenten</a>
+                <a href="ablauf.html" class="nav-link">Ablauf</a>
+                <a href="ueber-uns.html" class="nav-link">Über uns</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
+                <a href="kontakt.html" class="nav-cta">Demo buchen</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+        <div class="page-header-glow"></div>
+        <div class="container">
+            <span class="section-label animate-on-scroll">FAQ</span>
+            <h1 class="section-title animate-on-scroll">Häufige <span class="gradient-text">Fragen.</span></h1>
+            <p class="section-subtitle animate-on-scroll">Alles, was Sie über den Swiss Agents KI-Agent wissen möchten.</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" style="padding-top: 0;">
+        <div class="section-glow section-glow-teal"></div>
+        <div class="container">
+            <div class="faq-showcase">
+                <div class="faq-list">
+                <div class="faq-item animate-on-scroll active" style="--delay: 0" data-faq-index="01" data-faq-summary="Die wichtigsten Antworten auf einen Blick, ohne technisches Fachchinesisch.">
+                    <button class="faq-question" aria-expanded="true">
+                        <span class="faq-question-meta">01</span>
+                        <span class="faq-question-text">Brauche ich technisches Wissen?</span>
+                        <div class="faq-toggle"><span></span><span></span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nein. Wir machen alles für Sie. Sie müssen nichts installieren, nichts programmieren und nichts einrichten.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll" style="--delay: 1" data-faq-index="02" data-faq-summary="Von der Abstimmung bis zum Livegang dauert es in der Regel nur wenige Tage, nicht Monate.">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-question-meta">02</span>
+                        <span class="faq-question-text">Wie schnell ist der Agent einsatzbereit?</span>
+                        <div class="faq-toggle"><span></span><span></span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Meist in 7-10 Tagen. Nach unserem Erstgespräch geht es schnell - wir passen den Agenten an Ihre Bedürfnisse an und testen gemeinsam, bevor er startet.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll" style="--delay: 2" data-faq-index="03" data-faq-summary="Mehrsprachigkeit ist direkt mitgedacht, damit Ihr Agent auch international sauber auftreten kann.">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-question-meta">03</span>
+                        <span class="faq-question-text">Spricht der Agent mehrere Sprachen?</span>
+                        <div class="faq-toggle"><span></span><span></span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ja - Deutsch, Englisch, Französisch, Italienisch. Und bei Bedarf auch weitere Sprachen.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll" style="--delay: 3" data-faq-index="04" data-faq-summary="Ihr Agent handelt wie ein digitaler Mitarbeiter: verlässlich, konsistent und rund um die Uhr verfügbar.">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-question-meta">04</span>
+                        <span class="faq-question-text">Arbeitet der Agent wie ein Mensch?</span>
+                        <div class="faq-toggle"><span></span><span></span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Er verhält sich wie ein digitaler Mitarbeiter, der Ihre Aufgaben übernimmt. Er versteht, antwortet und handelt - freundlich, zuverlässig und rund um die Uhr.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll" style="--delay: 4" data-faq-index="05" data-faq-summary="Der Agent wird auf Ihre Abläufe angepasst, damit er sich nicht fremd anfühlt, sondern wie ein Teil Ihres Unternehmens.">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-question-meta">05</span>
+                        <span class="faq-question-text">Kann der Agent an unser Unternehmen angepasst werden?</span>
+                        <div class="faq-toggle"><span></span><span></span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ja. Sprache, Prozesse, Tonalität und Aufgaben werden auf Ihr Unternehmen abgestimmt, damit der Agent so arbeitet, wie es zu Ihrem Alltag passt.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll" style="--delay: 5" data-faq-index="06" data-faq-summary="Sie behalten jederzeit die Kontrolle und sehen nachvollziehbar, was Ihr Agent übernimmt.">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-question-meta">06</span>
+                        <span class="faq-question-text">Habe ich jederzeit Einblick in die Arbeit des Agenten?</span>
+                        <div class="faq-toggle"><span></span><span></span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ja. Über Ihr Dashboard sehen Sie Aktivitäten, Status, relevante Vorgänge und die wichtigsten Ergebnisse transparent und in Echtzeit.</p>
+                    </div>
+                </div>
+                <div class="faq-item animate-on-scroll" style="--delay: 6" data-faq-index="07" data-faq-summary="Sie starten nicht mit einem Mammutprojekt, sondern mit einem klaren Einstieg, den man sinnvoll erweitern kann.">
+                    <button class="faq-question" aria-expanded="false">
+                        <span class="faq-question-meta">07</span>
+                        <span class="faq-question-text">Können wir klein starten und später erweitern?</span>
+                        <div class="faq-toggle"><span></span><span></span></div>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Ja. Viele Unternehmen starten mit einem klaren Anwendungsfall und bauen danach Schritt für Schritt weitere Agenten oder Aufgabenbereiche aus.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="section section-cta-banner">
+        <div class="cta-banner-bg">
+            <div class="cta-glow cta-glow-1"></div>
+            <div class="cta-glow cta-glow-2"></div>
+        </div>
+        <div class="container">
+            <div class="cta-banner-content animate-on-scroll">
+                <h2>Noch Fragen? <span class="gradient-text">Sprechen wir darüber.</span></h2>
+                <p>Wir erklären Ihnen gerne persönlich, wie der Swiss Agents KI-Agent funktioniert.</p>
+                <a href="kontakt.html" class="btn btn-primary btn-lg">
+                    <span>Demo buchen</span>
+                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <div class="nav-logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 32 32" fill="none">
+                                <circle cx="16" cy="16" r="14" stroke="url(#footerGrad)" stroke-width="1.5"/>
+                                <path d="M10 20 C10 14, 16 8, 22 12 C18 10, 14 14, 14 18" stroke="url(#footerGrad)" stroke-width="1.5" fill="none"/>
+                                <circle cx="16" cy="16" r="3" fill="url(#footerGrad)" opacity="0.6"/>
+                                <defs>
+                                    <linearGradient id="footerGrad" x1="0" y1="0" x2="32" y2="32">
+                                        <stop offset="0%" stop-color="#00d4ff"/>
+                                        <stop offset="100%" stop-color="#8b5cf6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span class="logo-text">Swiss Agents</span>
+                    </div>
+                    <p class="footer-tagline">Der KI-Agent für Unternehmen.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="leistungen.html">KI-Agenten</a>
+                    <a href="ablauf.html">Ablauf</a>
+                    <a href="ueber-uns.html">Über uns</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="kontakt.html">Kontakt</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Swiss Agents. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING CTA -->
+    <div class="floating-cta" id="floatingCta">
+        <a href="kontakt.html" class="floating-cta-btn">
+            <span class="floating-pulse"></span>
+            <span>Jetzt Demo buchen</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
