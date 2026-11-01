@@ -1,6 +1,7 @@
 ---
 description: Pregled trenutnih izmena (git diff) pre commit-a
 argument-hint: [opciono: fajl ili oblast na koju se fokusirati]
+allowed-tools: Bash(git status:*), Bash(git diff:*)
 ---
 
 Pregledaj trenutne izmene u repou pre commit-a.
